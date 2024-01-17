@@ -1,0 +1,55 @@
+#div1{
+	float: left;
+	background-color: cyan;
+	width: 50%;
+	padding: 20px;
+	height: 100%;
+}
+
+#div2{
+	float: left;
+	background-color: purple;
+	width: 100%;
+}
+
+#div3{
+	float: left;
+	background-color: orange;
+	width: 100%;
+	height: 100%;
+}
+
+#div4{
+	background-color: black;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 60%;
+	height: 30px;
+	color: white;
+}
+
+#div5{
+	background-color: black;
+	float: right;
+	color: white;
+	height: 110px;
+	width: 30%;
+	margin-right: 10px;
+}
+
+#div6{
+	background-color: black;
+	float: left;
+	margin-bottom: 100px;
+	margin-left: 10px;
+	width: 60%;
+	height: 30px;
+	color: white;
+}
+#div7{
+	background-color: blue;
+	float: left;
+	width: 100%;
+
+}
