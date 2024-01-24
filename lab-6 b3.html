@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            #div1{
+                float: left;
+                margin: 10px;
+                width: 100%;
+            }
+            #div2{
+                float: left;
+                width: 100%;
+            }
+            #div3{
+                float: left;
+            }
+            #div4{
+                float: right;
+            }
+            #div5{
+                float: left;
+                width: 100%;
+            }
+            #div6{
+                background-color: red;
+                float: left;
+                width: 25%;
+                height: 600px;
+            }
+            #div7{
+                border: 1px dotted blue;
+                float: left;
+                width: 70%;
+                height: 600px;
+            }
+            #div8{
+                float: left;
+                width: 100%;
+            }
+            #div9{
+                float: left;
+                width: 100%;
+            }
+            #div10{
+                float: left;
+                width: 100%;
+                background-color: blue;
+                color: white;
+                text-align: center;
+                vertical-align: top;
+                padding: 20px;
+                font-size: 30px;
+            }
+            .img{
+                width: 150px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div1">
+            <div id="div2">
+                <div id="div3">
+                    <img src="data:image/png;base64,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">
+            </div>
+                <div id="div4">
+                    <div style="float: left; padding: 40px; font-size: 35px; color: rgb(54, 54, 231);">Home</div>
+                    <div style="margin-left: 10px; float: left; padding: 40px; font-size: 35px; color: rgb(54, 54, 231);">About</div>
+                    <div style="margin-left: 10px; float: left; padding: 40px; font-size: 35px; color: rgb(54, 54, 231);">Contact</div>
+                    <div style="margin-left: 10px; float: right; margin-right: 80px; padding: 40px; font-size: 35px; color: rgb(54, 54, 231);">Login</div>
+                </div>
+            </div>
+            <div><hr></div>
+            <div id="div5">
+                <div id="div6">
+                    <div><center>Sidebar</center></div>
+                    <div><hr color="yellow"></div>
+                    <div style="text-align: center; vertical-align: top; padding-bottom: 50px;">Home</div>
+                    <div><hr color="yellow"></div>
+                    <div style="height: 1px;"></div>
+                    <div><hr color="yellow"></div>
+                    <div style="text-align: center; vertical-align: top; padding-bottom: 50px;">Placement</div>
+                    <div><hr color="yellow"></div>
+                    <div style="height: 1px;"></div>
+                    <div><hr color="yellow"></div>
+                    <div style="text-align: center; vertical-align: top; padding-bottom: 50px;">Recruiter</div>
+                    <div><hr color="yellow"></div>
+                    <div style="height: 1px;"></div>
+                    <div><hr color="yellow"></div>
+                    <div style="text-align: center; vertical-align: top; padding-bottom: 50px;">Faculty</div>
+                    <div><hr color="yellow"></div>
+                    <div style="height: 1px;"></div>
+                    <div><hr color="yellow"></div>
+                    <div style="text-align: center; vertical-align: top; padding-bottom: 50px;">News</div>
+                    <div><hr color="yellow"></div>
+                    <div style="height: 1px;"></div>
+                </div>
+                <div id="div7">
+                    <div id="div8">
+                        <div style="margin: 5px 10px 15px 5px; float: left;">
+                            <img class="img" src="C:\Users\student\Pictures\fjkyk.jpg">
+                            <br>Arjun Bala<br>BE, M.Tech(CSE)
+                        </div>
+                        <div style="float: left; margin: 5px 10px 15px 5px;">
+                            <img class="img" src="C:\Users\student\Pictures\fjkyk.jpg">
+                            <br>Firoz Shreyasiya<br>BE, ME
+                        </div>
+                    </div>
+                    <div id="div9">
+                        <div style="float: left;width: 12%; height: 12%;">
+                            <img class="img" src="C:\Users\student\Pictures\fjkyk.jpg">
+                            <br>Arjun Bala<br>BE, M.Tech(CSE)
+                        </div>
+                        <div style="float: left;width: 12%; height: 12%; margin-right: 10px; margin-left: 10px;">
+                            <img class="img" src="C:\Users\student\Pictures\fjkyk.jpg">
+                            <br>Arjun Bala<br>BE, M.Tech(CSE)
+                        </div>
+                        <div style="float: left;width: 12%; height: 12%; margin-right: 10px; margin-left: 10px;">
+                            <img class="img" src="C:\Users\student\Pictures\fjkyk.jpg">
+                            <br>Arjun Bala<br>BE, M.Tech(CSE)
+                        </div>
+                        <div style="float: left;width: 12%; height: 12%; margin-right: 10px; margin-left: 10px;">
+                            <img class="img" src="C:\Users\student\Pictures\fjkyk.jpg">
+                            <br>Arjun Bala<br>BE, M.Tech(CSE)
+                        </div>
+                        <div style="float: left;width: 12%; height: 12%;">
+                            <img class="img" src="C:\Users\student\Pictures\fjkyk.jpg">
+                            <br>Arjun Bala<br>BE, M.Tech(CSE)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="div10">@Darshan University - Rajkot</div>
+        </div>
+    </body>
+</html>
