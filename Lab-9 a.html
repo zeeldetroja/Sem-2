@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab-9 a</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		.one{
+			background-color: black;
+			animation-name: main;
+			animation-duration: 2s;
+			height: 40vh;
+			width: 40vh;
+			position: absolute;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+
+		}
+		.one:hover{
+				background-color: royalblue;
+			}
+		@keyframes main{
+			from{
+				background-color: red;
+			}
+			to{
+				background-color: yellow;
+			}
+			0%{left: 0%; top: 0%;}
+			25%{left: 50%; top: 0%;}
+			50%{left: 50%; top: 50%;}
+			75%{left: 0%; top: 50%;}
+			100%{left: 0%; top: 0%;}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="one">
+		Content
+	</div>
+
+</body>
+</html>
